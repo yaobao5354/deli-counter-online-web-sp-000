@@ -23,7 +23,7 @@ def now_serving(array)
   if array.length == 0
     puts "There is nobody waiting to be served!"
   else 
-    puts "Currently serving #{array[0]}."
-    array.reverse.pop.reverse
+    puts "Currently serving #{array.shift}."
+    
   end 
 end 
