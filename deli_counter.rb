@@ -26,6 +26,5 @@ def now_serving(array)
   else 
     pop = array.reverse.pop
     puts "Currently serving #{pop}."
-    return array.reverse
   end 
 end 
